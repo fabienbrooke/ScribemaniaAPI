@@ -151,6 +151,7 @@ publish/
 
 # Windows Azure Build Output
 csx/
+ecf/
 *.build.csdef
 
 # Windows Store app package directory
