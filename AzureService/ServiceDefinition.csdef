@@ -4,5 +4,9 @@
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
     </ConfigurationSettings>
+    <Endpoints>
+      <InputEndpoint name="development" protocol="http" port="4000" />
+      <InputEndpoint name="production" protocol="http" port="80" />
+    </Endpoints>
   </WorkerRole>
 </ServiceDefinition>
